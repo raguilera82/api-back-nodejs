@@ -47,7 +47,7 @@ It returns the following:
 
 The `id_token` and `access_token` are signed with the secret located at the `config.json` file. The `id_token` will contain the `username` and the `extra` information sent, while the `access_token` will contain the `audience`, `jti`, `issuer` and `scope`.
 
-### Quotes API
+### Available API
 
 #### GET `/api/random-quote`
 
