@@ -63,6 +63,12 @@ The JWT - `access_token` must be sent on the `Authorization` header as follows: 
 
 It returns a List with JSONPlaceholder users. It doesn't require authentication.
 
+Also, you are able to access information about github of three users:
+
+##### GET `/api/public/users/roland`
+##### GET `/api/public/users/raguilera82`
+##### GET `/api/public/users/jmsanchez`
+
 #### GET `/api/protected/users`
 
 It returns a List with JSONPlaceholder users. It requires authentication. 
