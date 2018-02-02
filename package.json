@@ -1,39 +1,36 @@
 {
-  "name": "in-memory-todo",
-  "version": "0.1.0",
-  "description": "An In memory todo for Logged in and not Logged in users",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/auth0/nodejs-jwt-authentication-sample.git"
-  },
-  "keywords": [
-    "jwt",
-    "auth0"
-  ],
-  "author": "Martin Gontovnikas",
+  "name": "nest-typescript-starter",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/auth0/in-memory-todo/issues"
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/main.js"
   },
-  "homepage": "https://github.com/auth0/in-memory-todo",
   "dependencies": {
-    "body-parser": "^1.6.5",
-    "compression": "^1.0.11",
-    "cors": "^2.4.1",
-    "dotenv": "^0.4.0",
-    "errorhandler": "^1.1.1",
-    "express": "^4.8.5",
-    "express-jwt": "^0.3.1",
-    "jsonwebtoken": "^5.0.1",
-    "lodash": "^2.4.1",
-    "morgan": "^1.2.3"
+    "@nestjs/common": "^4.5.9",
+    "@nestjs/core": "^4.5.10",
+    "@nestjs/microservices": "^4.5.8",
+    "@nestjs/testing": "^4.5.5",
+    "@nestjs/websockets": "^4.5.8",
+    "@types/passport": "^0.4.2",
+    "@types/passport-jwt": "^3.0.1",
+    "@types/redis": "^2.8.5",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/typescript": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "redis": "^2.7.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2"
   },
   "devDependencies": {
-    "nodemon": "^1.14.11"
+    "@types/node": "^9.3.0",
+    "nodemon": "^1.14.1",
+    "ts-node": "^4.1.0"
   }
 }

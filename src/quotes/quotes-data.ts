@@ -1,4 +1,4 @@
-["Chuck Norris doesn't call the wrong number. You answer the wrong phone.",
+export const QUOTES = ["Chuck Norris doesn't call the wrong number. You answer the wrong phone.",
 "Chuck Norris has already been to Mars; that's why there are no signs of life.",
 "Chuck Norris and Superman once fought each other on a bet. The loser had to start wearing his underwear on the outside of his pants.",
 "Some magicans can walk on water, Chuck Norris can swim through land.",
