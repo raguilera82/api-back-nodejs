@@ -54,6 +54,6 @@ The JWT - `access_token` must be sent on the `Authorization` header as follows: 
 
 ## Running it
 
-Just clone the repository, run `npm install` and then `node server.js`. That's it :).
+Just clone the repository, run `npm install` and then `npm run start`. That's it :).
 
-If you want to run it on another port, just run `PORT=3001 node server.js` to run it on port 3001 for example.
+If you want to run it on another port, just run `PORT=3001 npm run start` to run it on port 3001 for example.
