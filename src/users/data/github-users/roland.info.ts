@@ -1,4 +1,4 @@
-{
+export const ROLAND = {
     "login": "roland",
     "id": 28,
     "avatar_url": "https://avatars2.githubusercontent.com/u/28?v=4",

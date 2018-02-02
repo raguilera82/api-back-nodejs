@@ -1,4 +1,4 @@
-{
+export const JMSANCHEZ = {
     "login": "jmsanchez",
     "id": 739604,
     "avatar_url": "https://avatars2.githubusercontent.com/u/739604?v=4",
