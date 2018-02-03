@@ -2,7 +2,6 @@ import { Component } from '@nestjs/common';
 
 import { QUOTES } from './quotes-data';
 
-
 @Component()
 export class QuotesService {
 
