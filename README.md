@@ -50,6 +50,10 @@ Also, you are able to access information about github of three users:
 
 It returns a List with JSONPlaceholder users. It requires authentication. 
 
+##### GET `/api/protected/users/roland`
+##### GET `/api/protected/users/raguilera82`
+##### GET `/api/protected/users/jmsanchez`
+
 The JWT - `access_token` must be sent on the `Authorization` header as follows: `Authorization: Bearer {jwt}`
 
 ## Running it
