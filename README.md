@@ -1,3 +1,6 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/raguilera82/api-back-nodejs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/raguilera82/api-back-nodejs/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/raguilera82/api-back-nodejs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/raguilera82/api-back-nodejs/context:javascript)
+
 # API Back NodeJS
 
 This API provides samples to connect with frontend applications in a teaching environment.
