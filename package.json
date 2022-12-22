@@ -25,7 +25,7 @@
     "@types/redis": "^2.8.5",
     "@types/reflect-metadata": "^0.1.0",
     "@types/typescript": "^2.0.0",
-    "jsonwebtoken": "^8.1.1",
+    "jsonwebtoken": "^9.0.0",
     "passport": "^0.4.0",
     "passport-jwt": "^3.0.1",
     "redis": "^2.7.1",
